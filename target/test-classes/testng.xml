@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Test Suite" verbose="1" parallel="tests" thread-count="2">
+    <test name="Selenium Test">
+        <classes>
+            <!-- Replace with the fully qualified name of your test class -->
+            <class name="com.example.SeleniumTest"/>
+        </classes>
+    </test>
+</suite>
